@@ -1,0 +1,25 @@
+.container{
+  width: 950px;
+  margin: 0 auto;
+  /*background-image: url("images/");*/
+  background-repeat: no-repeat;
+  min-height: 900px;
+}
+
+.row{
+  *zoom:1;
+  border: 1px dashed green;
+}
+.row:before,
+.row:after{
+  content:" ";
+  display:table;
+}
+.row:after{
+  clear:both;
+}
+.box{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
