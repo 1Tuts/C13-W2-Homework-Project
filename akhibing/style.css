@@ -1,3 +1,7 @@
+body{
+  background-image: url("images/bg.jpg");
+  background-size:cover;  
+}
 .container{
   width: 950px;
   margin: 0 auto;
@@ -22,4 +26,49 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+}
+
+.email{
+  padding-top:20px;
+  padding-right:15px;
+}
+.menu{
+  background-color: white;
+  padding-top:20px;
+  height:60px;
+}
+.menuRight{
+  padding-top:10px;
+  padding-right:20px;
+}
+.menuRight ul{
+  list-style-type: none;
+}
+.menuRight li{
+  float: left;
+  padding-right:15px;
+}
+.menuRight li a{
+  text-decoration: none;
+  text-transform: capitalize;
+
+}
+.menuLeft img{
+  padding-left: 20px;
+}
+.middle{
+  background-color: white;
+  margin-top:10px;
+}
+.mrow1{
+  padding-top:15px;
+}
+.mrow1 p{
+  color:grey;
+}
+.mrow1 a{
+  color:black;  
+}
+.mrow1 a:hover .yellowOnHover{
+  background-color: yellow;
 }
