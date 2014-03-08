@@ -58,25 +58,25 @@ body {
 
 .row2 {
   height: 80px;
+  background-color: #fff;
 }
 
 .box2 {
-  width: 400px;
-  height: 40px;
+  padding: 18px 0 13px 25px;
+  display: block;
 }
 
 .imagelink {
   width: 150px;
   height: 40px;
-  margin-top: 20px;
-  background-image: url('image/logo.png');
-  background-repeat: no-repeat;
+  display: block;
   float: left;
 }
 
 .txt {
   font-style: italic;
   color: #b2b2b6;
-  font-size: ;
+  display: table;
+  padding-left: 18px;
 }
 
