@@ -1,0 +1,26 @@
+.container{
+  width: 960px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+
+.container{
+  outline: 1px dotted gray;
+}
+
+.container > *{
+  outline: 1px dotted red;
+}
+
+.container > * > *{
+  outline: 1px dotted green;
+}
+
+.container > * > * > *{
+  outline: 1px dotted blue;
+}
+
+.container > * > * > * > *{
+  outline: 1px dotted yellow;
+}
