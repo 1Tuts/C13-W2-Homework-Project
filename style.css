@@ -1,0 +1,82 @@
+body {
+  background-image: url('image/Design_Museum_A4-A5-A6_bg.jpg');
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.row {
+  *zoom:1;
+  border: 1px dashed green; 
+}
+
+.row:before,
+.row:after {
+  content:" ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+} 
+
+.box {
+  box-sizing: border-box;
+}
+
+.container > *{
+  outline: 1px dotted green;
+}
+
+.container > * > *{
+  outline: 1px dotted red;
+}
+
+.container > * > * > *{
+  outline: 1px dotted blue;
+}
+
+.container > * > * > * > *{
+  outline: 1px dotted magenta;
+}
+
+.box1 {
+  height: 28px;
+}
+
+.header {
+  float: right;
+  width: 240px;
+  text-align: center;
+  font-size: 13px;
+  padding: 5px 5px;
+  background-color: #ffd61f;
+  margin: 0;
+}
+
+.row2 {
+  height: 80px;
+}
+
+.box2 {
+  width: 400px;
+  height: 40px;
+}
+
+.imagelink {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  background-image: url('image/logo.png');
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.txt {
+  font-style: italic;
+  color: #b2b2b6;
+  font-size: ;
+}
+
