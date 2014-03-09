@@ -139,6 +139,11 @@ body {
   float: left;
 }
 
+.container .row4 .box3 .capture {
+  width: 710px;
+  height: 430px;
+}
+
 .container .row4 .box4 {
   margin-left: 710px;
   height: 430px;
