@@ -169,6 +169,61 @@ body {
   height: 10px;
 }
 
+.container .row7 {
+  height: 375px;
+}
+
+.container .row7 .box {
+  width: 490px;
+  height: 374px;
+  float: left;
+}
+
+.container .row7 .box9 .boxa {
+  width: 490px;
+  height: 40px;
+}
+
+.container .row7 .box9 .boxb {
+  width: 490px;
+  height: 167px;
+}
+
+.container .row7 .box9 .boxc {
+  width: 490px;
+  height: 167px;
+}
+
+.container .row7 .box10 .boxd {
+  width: 490px;
+  height: 40px;
+}
+
+.container .row7 .box10 .boxd .boxsub1 {
+  width: 245px;
+  height: 40px;
+}
+
+.container .row7 .box10 .boxd .boxsub2 {
+  width: 245px;
+  height: 40px;
+}
+
+.container .row7 .box10 .boxe {
+  width: 490px;
+  height: 100px;
+}
+
+.container .row7 .box10 .boxf {
+  width: 490px;
+  height: 100px;
+}
+
+.container .row7 .box10 .boxg {
+  width: 490px;
+  height: 134px;
+}
+
 
 
 
