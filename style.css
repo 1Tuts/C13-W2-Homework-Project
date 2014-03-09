@@ -224,6 +224,23 @@ body {
   height: 134px;
 }
 
+.container .row8 {
+  height: 70px;
+  padding: 20px;
+}
+
+.container .row8 .boxsub3 {
+  width: 470px;
+  height: 70px;
+  float: left;
+}
+
+.container .row8 .boxsub4 {
+  width: 470px;
+  height: 70px;
+  float: left;
+}
+
 
 
 
