@@ -1,5 +1,7 @@
 body {
   background-image: url('image/Design_Museum_A4-A5-A6_bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
@@ -9,7 +11,7 @@ body {
 
 .row {
   *zoom:1;
-  border: 1px dashed green; 
+  outline: 1px dashed green; 
 }
 
 .row:before,
@@ -24,6 +26,10 @@ body {
 
 .box {
   box-sizing: border-box;
+}
+
+.container {
+  outline: 2px dotted black;
 }
 
 .container > *{
@@ -150,11 +156,11 @@ body {
 }
 
 .container .row5 {
-  height: 260px;
+  height: 270px;
 }
 
-.container .row5 > .box {
-  width: 244px;
+.container .row5 .box {
+  width: 245px;
   height: 240px;
   float: left;
 }
