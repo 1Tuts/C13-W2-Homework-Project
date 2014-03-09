@@ -122,7 +122,7 @@ menu > li > a:hover {
 }
 
 .row4 {
-  height: 450px;
+  height: 430px;
 }
 
 .box3 {
@@ -134,6 +134,10 @@ menu > li > a:hover {
 .box4 {
   margin-left: 710px;
   height: 430px;
+}
+
+.row5 {
+  height: 20px;
 }
 
 
