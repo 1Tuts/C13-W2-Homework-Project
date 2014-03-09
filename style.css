@@ -117,6 +117,18 @@ menu > li > a:hover {
   color: #000;
 }
 
+.row3 {
+  height: 10px;
+}
+
+.row4 {
+  height: 450px;
+}
+
+.box3 {
+  height: 430px;  
+  width: 73%;
+}
 
 
 
