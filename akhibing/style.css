@@ -59,6 +59,7 @@ body{
 .middle{
   background-color: white;
   margin-top:10px;
+  padding-left:20px;
 }
 .mrow1{
   padding-top:15px;
@@ -67,8 +68,60 @@ body{
   color:grey;
 }
 .mrow1 a{
-  color:black;  
+  color:black;
+  background-color: transparent;
+  transition: all 700ms;  
 }
-.mrow1 a:hover .yellowOnHover{
+.mrow1 a:hover {
   background-color: yellow;
+  transition: all 300ms;
+  text-decoration: none;
+}
+
+.mrow2{
+  margin:20px 0 20px 0;
+}
+.topLink{
+  text-decoration: none;
+  color:black;
+  font: 13px/21px Georgia,"Times New Roman",Times,serif;
+}
+.topLink:hover{
+  color: grey;
+  transition: all 300ms;
+}
+.downLink{
+  text-decoration: none;
+  color: #555555;
+  font: 13px/21px Georgia,"Times New Roman",Times,serif;
+  background-color: transparent;  
+}
+.downLink:hover{
+  background-color: yellow;
+  transition: all 300ms; 
+}
+.h1link{
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+.spanlink{
+  margin:0 auto;
+  padding:0;  
+  width:181px;
+  display: block;
+}
+.spanlink1{
+  margin:0 auto;
+  padding:0;  
+  width:133px;
+  display: block;
+}
+.mcol{
+  background-color: #F7F7F8;
+  margin-right:11px;
+
+}
+.mrow4{
+  margin:20px 0 20px 0px;
 }
