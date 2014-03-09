@@ -127,7 +127,13 @@ menu > li > a:hover {
 
 .box3 {
   height: 430px;  
-  width: 73%;
+  width: 710px;
+  float: left;
+}
+
+.box4 {
+  margin-left: 710px;
+  height: 430px;
 }
 
 
