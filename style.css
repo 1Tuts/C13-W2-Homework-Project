@@ -105,9 +105,8 @@ body {
   padding: 0 10px;
 }
 
-.container .row2 .box2 menu > li {
+.container .row2 .box2 menu li {
   list-style-type: none;
-  position: relative;
 }
 
 .container .row2 .box2 menu > li > a {
@@ -117,34 +116,18 @@ body {
   font-family: Helvetica;
   font-weight: bold;
   font-size: 14px;
-  transition: all 1000ms;
-    -moz-transition: all 1000ms;
+  transition: all 300ms;
+    -moz-transition: all 300ms;
 }
 
 .container .row2 .box2 menu > li > a:hover {
   color: #000;
-  transition: all 700ms;
-    -moz-transition: all 700ms;
+  transition: all 300ms;
+    -moz-transition: all 300ms;
 }
 
 .container .row2 .box2 .main > li > .first {
   color: #000;
-}
-
-.container .row2 .box2 .main li menu {
-  opacity: 0;
-  position: absolute;
-  left: 120px;
-  top: 30px;
-  transition: all 500ms;
-  pointer-events : none;
-  height: 0;
-}
-
-.container .row2 .box2 .main li:nth-child(3):hover menu {
-  opacity: 1;
-  pointer-events : auto;
-  height: auto;
 }
 
 .container .row3 {
@@ -170,6 +153,12 @@ body {
 .container .row4 .box4 {
   margin-left: 710px;
   height: 430px;
+}
+
+.container .row4 .box4 .wearescope {
+  width: 220px;
+  height: 100px;
+  padding: 20px 0 0 20px;
 }
 
 .container .row5 {
