@@ -234,3 +234,30 @@ body{
   background-color: #FFD62C;
   transition: all 300ms;
 }
+.cover{
+  /*display: none;*/
+  background-color: #FFD62C;
+  width:220px;
+  height:140px;
+}
+.cover span{
+  display: none;
+  color: white;
+  background-color: #333333;
+  width:73px;
+  height:18px;
+  position: relative;
+  padding:2px 6px;
+  top:-86px;
+  left:64px;  
+  font:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+}
+.demo:hover img{
+  opacity: .2;
+}
+.demo:hover span{
+  display: block;
+}
