@@ -53,6 +53,7 @@ body{
   text-decoration: none;
   text-transform: capitalize;
   color:#AAAAAA;
+  display: block;
 }
 .menuRight li:hover a{
   color:black;
@@ -196,4 +197,40 @@ body{
 }
 .FlickrWidget .rimages img{
   border:2px solid yellow;
+}
+.bmleft{
+  padding-top:20px;
+  padding-left:20px;
+  padding-bottom: 70px;
+  width:242px;
+  color:#222222;
+  font: 11px/21px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.bmleft a{
+  text-decoration: none;
+  color:#AAAAAA;
+}
+.bmleft a:hover{
+  background-color: #FFD62C;
+  transition: all 300ms; 
+}
+.bmright{
+   padding-top:20px;
+}
+.bmright a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color:#222222;
+  font-size: 10px;
+}
+.bmright li{
+  float:right;
+  padding-left: 10px;
+}
+.bmright menu{
+  list-style-type: none;
+}
+.bmright a:hover{
+  background-color: #FFD62C;
+  transition: all 300ms;
 }
