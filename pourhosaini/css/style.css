@@ -11,10 +11,23 @@ body{
 }
 
 .header1{
+  height: 210px;
+}
 
+.h1-left{
+  height: 210px;
+}
+
+.logo{
+padding: 5px 35px;
+}
+
+.h1-right{
+  height: 210px;
 }
 
 .slider{
+  background-color: #EDECEB;
 
 }
 
