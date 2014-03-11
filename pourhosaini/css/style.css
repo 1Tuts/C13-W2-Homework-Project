@@ -1,3 +1,7 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 body{
   background-color: #F5F4F2;
 }
@@ -19,12 +23,11 @@ body{
 }
 
 .logo{
-  height: 210px;
-  padding: 5px 35px;
+  padding: 3px 35px;
 }
 
 .h1-right{
-  height: 210px;
+
 }
 
 .nav{
@@ -35,16 +38,16 @@ body{
   list-style-type: none;
 }
 
-.nav ul li{
+.nav li{
   float: left;
   padding-left: 30px;
 
 }
 
-.nav ul li a{
+.nav a{
   text-decoration: none;
-  color: gray;
-  font-family: 
+  color: #b2b1af;
+  font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
 }
 .nav ul li a:hover{
   color: #5D5D5C;
@@ -69,8 +72,8 @@ body{
 /* award */
 .award{
   position: fixed;
-  top: 1px;
-  right: 1px;
+  top: 0;
+  right: 0;
   text-decoration: none;
 }
 
