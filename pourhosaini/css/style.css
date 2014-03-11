@@ -85,7 +85,10 @@ body{
 
 .slider{
   background-color: #EDECEB;
-
+  padding: 10px 10px;
+}
+.slider-shadow{
+  padding-left: 468px;
 }
 
 .articles{
