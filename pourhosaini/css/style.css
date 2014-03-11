@@ -52,6 +52,9 @@ body{
 .nav a:hover{
   color: #5D5D5C;
 }
+.nav ul li:nth-child(1) a{
+  color: #5D5D5C;
+}
 
 .desc{
   margin-top: 30px;
@@ -59,7 +62,7 @@ body{
 
 .desc h1{
   font-family: "ColaborateThinRegular", Arial, Helvetica, sans-serif;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: normal;
   line-height: 32px;
   text-shadow: 1px 1px #fff;
@@ -72,13 +75,14 @@ body{
   font-family: "ColaborateThinRegular", Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: #a09f9e;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 24px;
   margin: 0;
   padding: 0;
-  text-shadow: 1px 1px #FFFFFF;
+  text-shadow: 1px 1px #FFF;
   text-align: justify;
 }
+
 .slider{
   background-color: #EDECEB;
 
@@ -94,6 +98,9 @@ body{
 
 .footer2{
 
+}
+::selection{
+  background: #DEDC00;
 }
 
 /* award */
