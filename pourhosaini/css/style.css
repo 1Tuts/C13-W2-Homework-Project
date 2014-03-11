@@ -41,7 +41,7 @@ body{
 .nav li{
   float: left;
   padding-left: 30px;
-
+  margin-top: 30px;
 }
 
 .nav a{
@@ -49,8 +49,35 @@ body{
   color: #b2b1af;
   font-family: "ColaborateLightRegular", Arial, Helvetica, sans-serif;
 }
-.nav ul li a:hover{
+.nav a:hover{
   color: #5D5D5C;
+}
+
+.desc{
+  margin-top: 30px;
+}
+
+.desc h1{
+  font-family: "ColaborateThinRegular", Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 32px;
+  text-shadow: 1px 1px #fff;
+  color: #515151;
+  margin: 0;
+  padding: 0;
+}
+
+.desc h2{
+  font-family: "ColaborateThinRegular", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #a09f9e;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px #FFFFFF;
+  text-align: justify;
 }
 .slider{
   background-color: #EDECEB;
@@ -86,7 +113,7 @@ body{
 }
 
 .container > * > *{
-  outline: 1px dotted green;
+  outline: 1px solid green;
 }
 
 .container > * > * > *{
