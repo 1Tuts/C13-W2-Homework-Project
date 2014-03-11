@@ -372,14 +372,15 @@ body {
   height: 167px;
 }
 
-.container .row9 .box9 .boxb a,.boxc a {
+.container .row9 .box9 .boxb .tind,.boxc .tind {
   width: 45px;
   height: 45px;
   display: block;
-  margin: 10px 0 0 10px;
+  margin-left: 10px;
+  float: left;
 }
 
-.container .row9 .box9 .boxb a p,.boxc a p {
+.container .row9 .box9 .boxb .tind .bg,.boxc .tind .bg {
   width: 45px;
   height: 45px;
   margin-top: 0;
@@ -391,11 +392,34 @@ body {
     -moz-transition: background-color 300ms;
 }
 
-.container .row9 .box9 .boxb a p:hover,.boxc a p:hover {
+.container .row9 .box9 .boxb .tind .bg:hover,.boxc .tind .bg:hover {
   background-position: 0 -67px;
   background-color: #fff;
   transition: background-color 300ms;
     -moz-transition: background-color 300ms;
+}
+
+.container .row9 .box9 .boxb .titr,.boxc .titr {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+  border-bottom: 1px dotted #656565;
+  font-size: 15px;
+  transition: all 600ms;
+    -moz-transition: all 600ms;
+}
+
+.container .row9 .box9 .boxb .donec,.boxc .donec {
+  margin: 30px 0 0 65px;
+  font-size: 15px;
+  color: #555;
+  font-weight: bold;
+}
+
+.container .row9 .box9 .boxb .titr:hover,.boxc .titr:hover {
+  color: #ffd62c;
+  transition: all 600ms;
+    -moz-transition: all 600ms;
 }
 
 .container .row9 .box10 .boxd {
