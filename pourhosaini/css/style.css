@@ -11,15 +11,16 @@ body{
 }
 
 .header1{
-  height: 210px;
+
 }
 
 .h1-left{
-  height: 210px;
+  
 }
 
 .logo{
-padding: 5px 35px;
+  height: 210px;
+  padding: 5px 35px;
 }
 
 .h1-right{
@@ -63,6 +64,14 @@ padding: 5px 35px;
 
 .footer2{
 
+}
+
+/* award */
+.award{
+  position: fixed;
+  top: 1px;
+  right: 1px;
+  text-decoration: none;
 }
 
 .container{
