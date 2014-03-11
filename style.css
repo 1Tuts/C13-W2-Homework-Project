@@ -442,6 +442,42 @@ body {
   height: 100px;
 }
 
+.container .row9 .box10 .boxe .jakiestfu,.boxf .jakiestfu,.boxg .jakiestfu {
+  text-decoration: none;
+  border-bottom: 1px dotted #fff;
+  font-size: 15px;
+  color: #fff;
+  transition: all 600ms;
+    -moz-transition: all 600ms;
+}
+
+.container .row9 .box10 .boxe .jakiestfu:hover,.boxf .jakiestfu:hover,.boxg .jakiestfu:hover {
+  color: #222;
+  background-color: #ffd62c;
+  transition: all 600ms;
+    -moz-transition: all 600ms;
+}
+
+.container .row9 .box10 .boxe .model,.boxf .model,.boxg .model {
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+}
+
+.container .row9 .box10 .boxe .history,.boxf .history,.boxg .history {
+  font-size: 15px;
+  color: #555;
+  text-decoration: none;
+  transition: all 600ms;
+    -moz-transition: all 600ms;
+}
+
+.container .row9 .box10 .boxe .history:hover,.boxf .history:hover,.boxg .history:hover {
+  color: #222;
+  transition: all 600ms;
+    -moz-transition: all 600ms;
+}
+
 .container .row9 .box10 .boxf {
   width: 490px;
   height: 100px;
