@@ -102,11 +102,6 @@ body{
 }
 
 .articles p{
-  display: block;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
   font-family: "ColaborateThinRegular", Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: #a09f9e;
@@ -144,8 +139,13 @@ body{
 
 }
 ::selection{
+  color: #5D5D5C;
   background: #DEDC00;
 }
+::-moz-selection {
+  color: #5D5D5C;
+  background:#DEDC00;
+} 
 
 /* award */
 .award{
