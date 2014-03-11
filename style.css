@@ -10,8 +10,7 @@ body {
 }
 
 .row {
-  *zoom:1;
-  outline: 1px dashed green; 
+  *zoom:1; 
 }
 
 .row:before,
@@ -26,34 +25,6 @@ body {
 
 .box {
   box-sizing: border-box;
-}
-
-.container {
-  outline: 2px dotted black;
-}
-
-.container > *{
-  outline: 1px dotted green;
-}
-
-.container > * > *{
-  outline: 1px dotted red;
-}
-
-.container > * > * > *{
-  outline: 1px dotted blue;
-}
-
-.container > * > * > * > *{
-  outline: 1px dotted magenta;
-}
-
-.container > * > * > * > * > *{
-  outline: 1px dotted yellow;
-}
-
-.container > * > * > * > * > * > *{
-  outline: 1px dotted brown;
 }
 
 .container .row1 .box1 {
