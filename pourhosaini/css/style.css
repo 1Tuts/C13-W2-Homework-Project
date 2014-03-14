@@ -23,7 +23,7 @@ body{
 }
 
 .logo{
-  padding: 3px 35px;
+  padding: 5px 35px;
 }
 
 .h1-right{
@@ -87,6 +87,7 @@ body{
   background-color: #EDECEB;
   padding: 10px 10px;
 }
+
 .slider-shadow{
   padding-left: 468px;
 }
