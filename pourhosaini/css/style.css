@@ -96,6 +96,22 @@ body{
   padding-bottom: 50px;
 }
 
+.art-title{
+  /*positioning*/
+  position: relative;
+  left: 0;
+  top: -120px;
+  background: #dedc00;
+  padding: 0 10px;
+  margin: 0;
+  /*end of positioning*/
+  text-decoration: none;
+  font-family: "ColaborateThinRegular", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  color: #5c5c5c;
+  line-height: 20px;
+}
 
 .articles img{
   padding-left: 10px;
