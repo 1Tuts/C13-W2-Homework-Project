@@ -151,7 +151,7 @@ body{
 
 /* award */
 .award{
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   text-decoration: none;
