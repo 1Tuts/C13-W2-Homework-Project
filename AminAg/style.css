@@ -5,6 +5,7 @@ body {
 .container {
   width: 950px;
   margin: 0 auto;
+}
 
 }
 .row{
@@ -21,20 +22,19 @@ body {
 .box{
   box-sizing: border-box;
 }
-menu.main {
+.toponvar menu.main {
   list-style-type: none;
-  
 }
 
-.toprow menu.main li {
-   float: left;
+.toprow .toponvar menu.main li {
+  float: left;
 }
 
-menu.main a {
+.toponvar menu.main a {
   text-decoration: none;
   color: #B2B1AF;
   font-size: 18px;
- font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
+  font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
   padding: 10px 20px;
 }
 
@@ -42,9 +42,15 @@ menu.main a {
   font-size: 23px;
   line-height: 32px;
   color: #515151;
-  float: left; font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
+  float: left;
+  font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
   font-weight: normal;
  
+}
+
+.topinvar {
+  display: table;
+  float: left;
 }
 
 .toponvar h2 {
@@ -54,12 +60,6 @@ menu.main a {
   color: #A09F9E;
   font-weight: NORMAL;
   width: 620px;
-}
-
-.topinvar img {
-  float: left;
-  width: 250px;
-  height: 200px;
 }
 
 .khvasat p {
@@ -101,8 +101,43 @@ menu.main a {
 
 }
 
-.bottinvar ul {
+.bottinvar ul , .bottvasat ul, .bottonva ul {
   list-style-type: none;
+}
+
+.bottvasat ul a {
+  text-decoration: none;
+  color: #B2B1AF;
+  font-size: 13px;
+  line-height: 24px;
+ font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
+
+}
+
+.bottvasat ul .head, .bottonva ul .head {
+  color: #000;
+  font-size: 15px;
+}
+
+.bottonva ul a {
+  text-decoration: none;
+  color: #B2B1AF;
+  font-size: 13px;
+  line-height: 24px;
+ font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
+
+}
+
+.bottonvar ul {
+  color: #B2B1AF;
+  font-size: 13px;
+  line-height: 24px;
+ font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
+}
+
+.bottonvar ul .head {
+  font-size: 11px;
+  color: #000;
 }
 
 
