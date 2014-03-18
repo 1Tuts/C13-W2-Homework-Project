@@ -2,11 +2,6 @@ body {
   background-color: #F5F4F2;
 }
 
-.container {
-  width: 950px;
-  margin: 0 auto;
-}
-
 }
 .row{
   *zoom:1;
@@ -24,6 +19,16 @@ body {
 }
 .toponvar menu.main {
   list-style-type: none;
+  padding: 0;
+}
+
+.toponvar{
+  float: left;
+  padding-left: 35px;
+}
+
+.toponvar > *{
+  display: table;
 }
 
 .toprow .toponvar menu.main li {
@@ -33,29 +38,26 @@ body {
 .toponvar menu.main a {
   text-decoration: none;
   color: #B2B1AF;
-  font-size: 18px;
+  font-size: 19px;
   font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
-  padding: 10px 20px;
+  padding: 3px 20px 0 0 ;
 }
 
 .toponvar h1 {
-  font-size: 23px;
-  line-height: 32px;
+  font-size: 20px;
   color: #515151;
-  float: left;
   font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
   font-weight: normal;
- 
 }
 
 .topinvar {
   display: table;
   float: left;
+  padding-left: 29px;
 }
 
 .toponvar h2 {
-  font-size: 18px;
-  float: left;
+  font-size: 15px;
   line-height: 32px; font-family:"ColaborateThinRegular",Arial,Helvetica,sans-serif;
   color: #A09F9E;
   font-weight: NORMAL;
@@ -63,7 +65,6 @@ body {
 }
 
 .khvasat p {
-  width: 300px;
     font-size: 16px;
   float: left;
   line-height: 32px; font-family:"ColaborateThinRegular",Arial,Helvetica,sans-serif;
@@ -129,6 +130,7 @@ body {
 }
 
 .bottonvar ul {
+
   color: #B2B1AF;
   font-size: 13px;
   line-height: 24px;
