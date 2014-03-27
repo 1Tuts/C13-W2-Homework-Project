@@ -1,0 +1,157 @@
+body {
+  background-color: #F5F4F2;
+}
+
+}
+.row{
+  *zoom:1;
+}
+.row:before,
+.row:after{
+  content:" ";
+  display:table;
+}
+.row:after{
+  clear:both;
+}
+.box{
+  box-sizing: border-box;
+}
+.toponvar menu.main {
+  list-style-type: none;
+  padding: 0;
+}
+
+.toponvar{
+  float: left;
+  padding-left: 35px;
+}
+
+.toponvar > *{
+  display: table;
+}
+
+.toprow .toponvar menu.main li {
+  float: left;
+}
+
+.toponvar menu.main a {
+  text-decoration: none;
+  color: #B2B1AF;
+  font-size: 19px;
+  font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
+  padding: 3px 20px 0 0 ;
+}
+
+.toponvar h1 {
+  font-size: 20px;
+  color: #515151;
+  font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
+  font-weight: normal;
+}
+
+.topinvar {
+  display: table;
+  float: left;
+  padding-left: 29px;
+}
+
+.toponvar h2 {
+  font-size: 15px;
+  line-height: 32px; font-family:"ColaborateThinRegular",Arial,Helvetica,sans-serif;
+  color: #A09F9E;
+  font-weight: NORMAL;
+  width: 620px;
+}
+
+.khvasat p {
+    font-size: 16px;
+  float: left;
+  line-height: 32px; font-family:"ColaborateThinRegular",Arial,Helvetica,sans-serif;
+  color: #A09F9E;
+  font-weight: NORMAL;
+  float: left;
+}
+
+.bottenrow,.botterow {
+  border-top: 1px dashed black;
+}
+
+.khvasat div {
+  float: left;
+  width: 300px;
+  padding: 5px;
+}
+
+.khvasat img {
+  float: left; 
+}
+
+.botterow div {
+  width: 220px;
+  float: left;
+
+}
+
+.bottinvar ul a {
+  text-decoration: none;
+  color: #B2B1AF;
+  font-size: 13px;
+  line-height: 24px;
+ font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
+
+}
+
+.bottinvar ul , .bottvasat ul, .bottonva ul {
+  list-style-type: none;
+}
+
+.bottvasat ul a {
+  text-decoration: none;
+  color: #B2B1AF;
+  font-size: 13px;
+  line-height: 24px;
+ font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
+
+}
+
+.bottvasat ul .head, .bottonva ul .head {
+  color: #000;
+  font-size: 15px;
+}
+
+.bottonva ul a {
+  text-decoration: none;
+  color: #B2B1AF;
+  font-size: 13px;
+  line-height: 24px;
+ font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
+
+}
+
+.bottonvar ul {
+
+  color: #B2B1AF;
+  font-size: 13px;
+  line-height: 24px;
+ font-family:"ColaborateThinRegular",Arial,Helvetica,"sans-serif";
+}
+
+.bottonvar ul .head {
+  font-size: 11px;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
